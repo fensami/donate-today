@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background-image: url(../images/donation7.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    height: 800px;
+
+}
+.banner{
+    margin: 0 200px;
+}
+.header-title{
+    text-align: center;
+    color: rgb(103, 240, 103);
+    padding: 40px;
+    font-weight: 900;
+    
+}
+.header-paragraph{
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: rgb(140, 151, 240);
+    text-align: center;
+    
+}
+.btn-primary{
+    background: #e14545;
+    border: 0px;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 20px 16px;
+    align-items: baseline;
+}
+.btn-primary:hover{
+    background-color: rgb(28, 224, 28);
+}
