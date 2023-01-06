@@ -133,11 +133,53 @@ hr{
 /* depends style */
 
 .depends{
-
+    display: flex;
+    align-items: center;
+    padding: 40px;
 }
 .depends-title{
+    font-weight: 700;
+    font-size: 35px;
+    margin-left: 40px;
 
 }
 .depends-paragraph{
-    
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin: 20px 0 0 40px;
+    text-align: justify;
+
+}
+.depends-image{
+    padding: 40px;
+    margin-right: 10px;
+    width: 556px;
+    height: 477px;
+
+}
+
+/* need us style */
+
+.need{
+    display: flex;
+    text-align: center;
+}
+.need-box{
+    padding: 40px;
+    text-align: justify;
+    margin: 40px;
+    margin-right: 10px;
+
+}
+.need-image{
+    padding: 40px;
+    margin-left: 35px;
+    width: 556px;
+    height: 477px;
+
+}
+.need-title{
+    margin-bottom: 10px;
+    text-align: center;
 }
