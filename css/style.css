@@ -1,6 +1,6 @@
 *{
     margin: 0px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', 'sans-serif','Lobster';
 }
 .header{
     background-image: url(../images/donation7.jpg);
@@ -209,6 +209,7 @@ hr{
     padding: 75px 180px;
     margin: 0 315px;
     background: #FFF4D6;
+    margin-bottom: 170px;
 }
 input{
     border: 0;
@@ -223,4 +224,19 @@ button{
     border-radius: 0px 5px 5px 0px;
     font-weight: 500;
     font-size: 16px;
+}
+
+/* footer */
+footer{
+    text-align: center;
+    padding: 43px 600px;
+    background: #0B0D17;
+
+}
+.footer-title{
+    font-family: 'Lobster';
+    color: #FF5959;
+}
+.footer-paragraph{
+    color: #D9DBE1;
 }
