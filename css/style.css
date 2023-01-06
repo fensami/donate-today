@@ -14,23 +14,26 @@
 }
 .header-title{
     text-align: center;
-    color: rgb(103, 240, 103);
+    color: white;
     padding: 40px;
-    font-weight: 900;
+    font-weight: 700;
+    font-size: 65px;
     
 }
 .header-paragraph{
     font-weight: 700;
     margin-bottom: 50px;
-    color: rgb(140, 151, 240);
+    color: gray;
     text-align: center;
     
 }
 .btn-primary{
-    background: #e14545;
+    background: #FF5959;
+    color: #FFFFFF;
     border: 0px;
     border-radius: 5px;
     font-weight: 600;
+    font-size: 20px;
     padding: 20px 16px;
     align-items: baseline;
     margin-top: 30px;
