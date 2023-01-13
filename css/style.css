@@ -2,25 +2,30 @@
     margin: 0px;
     font-family: 'Open Sans', 'sans-serif','Lobster';
 }
-.header{
-    background-image: url(../images/donation7.jpg);
-    background-repeat: no-repeat;
-    background-position: top left;
-    height: 800px;
 
+.container img{
+    width: 100%;
+    height: auto;
 }
-.banner{
-    margin: 0 200px;
+.container{
+    position: relative;
 }
-.header-title{
+.container-title{
+    position: absolute ;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+}
+.container-h1{
     text-align: center;
     color: white;
-    padding: 40px;
-    font-weight: 700;
-    font-size: 65px;
+    /* padding: 40px; */
+    font-weight: 600;
+    font-size: 30px;
     
 }
-.header-paragraph{
+.container-paragraph{
     font-weight: 700;
     margin-bottom: 50px;
     color: gray;
@@ -239,4 +244,51 @@ footer{
 }
 .footer-paragraph{
     color: #D9DBE1;
+}
+
+/* Responsive style */
+@media screen and (max-width:576px) {
+    .donate-today,
+     .takar-box,
+      .food,
+       .depends,
+        .need,
+        .updates-button{
+        flex-direction: column;
+        margin: 0;
+    }
+    .depends{
+        flex-direction: column-reverse;
+        
+    }
+    .need img{
+        display: none;
+    }
+    .need p,h2,button{
+        display: none;
+    }
+    input{
+        
+        
+        width: 200px;
+        height: 48px;
+    }
+    /* footer{
+        padding: 0;
+    
+    } */
+
+
+    
+    
+}
+
+/* mid range */
+@media screen and (min-width:577px) and (max-width:992px) {
+
+    
+}
+
+.hide{
+    display: none;
 }
